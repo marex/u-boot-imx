@@ -70,6 +70,8 @@
 #undef CONFIG_DM_SPI
 #undef CONFIG_DM_SPI_FLASH
 #undef CONFIG_SPI_FLASH_MTD
+#undef CONFIG_WATCHDOG
+#define CONFIG_HW_WATCHDOG
 #endif
 
 /* UART */

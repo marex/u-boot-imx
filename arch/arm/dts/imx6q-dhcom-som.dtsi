@@ -46,6 +46,11 @@
 		regulator-max-microvolt = <3300000>;
 		regulator-always-on;
 	};
+
+	wdt-reboot {
+		compatible = "wdt-reboot";
+		wdt = <&wdog1>;
+	};
 };
 
 &can1 {
